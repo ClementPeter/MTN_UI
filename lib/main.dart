@@ -78,12 +78,7 @@ class _MtnPageState extends State<MtnPage> {
                     fontStyle: FontStyle.italic,
                   ),
                 ),
-                // Text(
-                //   'This is Google Fonts',
-                //   style: GoogleFonts.lato(
-                //     textStyle: TextStyle(fontSize: 40.0),
-                //   ),
-                // ),
+
                 SizedBox(height: 10.0),
                 Text(
                   'Welcome',
@@ -93,15 +88,7 @@ class _MtnPageState extends State<MtnPage> {
                     letterSpacing: 2.0,
                   ),
                 ),
-                // Text(
-                //   'Welcome',
-                //   style: TextStyle(
-                //     fontSize: 25,
-                //     fontWeight: FontWeight.w400,
-                //     fontFamily: 'Lato',
-                //     letterSpacing: 2.0,
-                //   ),
-                // ),
+
                 SizedBox(height: 30.0),
                 TextField(
                   controller: _controller,
